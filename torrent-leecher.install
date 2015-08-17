@@ -1,0 +1,14 @@
+post_install(){
+	echo "Config file:"
+	echo " /etc/torrent-leecher.conf"
+	echo ""
+	echo "Log file:"
+	echo " /var/log/torrent-leecher.log"
+	echo ""
+	echo "View logs in realtime:"
+	echo " torrent-leecher-logs"
+	echo ""
+	echo "Usage:"
+	echo " -Start daemon/proxy by running 'systemctl start torrent-leecher' or run 'systemctl enable torrent-leecher' to make it start on bootup"
+	echo " -Set (tracker) proxy on your BitTorrent client to localhost:3456"
+}
